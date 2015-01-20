@@ -1,0 +1,27 @@
+{
+  "name": "jquery-fast-show-hide",
+  "version": "0.0.0",
+  "description": "fast replacement for jQuery's .show(), .hide() and .toggle() which uses classes rather than direct manipulation of the DOM elements' style.display attribute, therefor allowing you to 'style' the show/hide behaviour.",
+  "main": "jquery-fast-show-hide.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GerHobbelt/jquery-fast-show-hide.git"
+  },
+  "keywords": [
+    "jquery",
+    "display",
+    "visibility"
+  ],
+  "author": "Ger Hobbelt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GerHobbelt/jquery-fast-show-hide/issues"
+  },
+  "homepage": "https://github.com/GerHobbelt/jquery-fast-show-hide",
+  "scripts": {
+    "less": "lessc jquery-fast-show-hide.less jquery-fast-show-hide.css"
+  }
+}
